@@ -54,7 +54,7 @@ function operate(operator, a, b) {
 }
 
 let i = 0;
-let txt = 'Welcome to a nice calculator'
+let txt = 'Welcome to my calculator'
 let speed = 50;
 let cursor = true;
 let speedC = 500;
@@ -62,14 +62,10 @@ let speedC = 500;
 function typeWriter(){
   if (i < txt.length){
     let text = document.getElementById("text").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
+    i++;   
+    setTimeout(typeWriter, speed);   
   }
 }
-
-
-
-
 
 typeWriter();
  
