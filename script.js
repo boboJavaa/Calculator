@@ -54,7 +54,7 @@ function operate(operator, a, b) {
 }
 
 let i = 0;
-let txt = 'Welcome to my simple calculator'
+let txt = 'Welcome to a nice calculator'
 let speed = 50;
 let cursor = true;
 let speedC = 500;
